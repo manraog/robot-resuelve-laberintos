@@ -3,11 +3,14 @@
 ### Videos (Click para ver)
 
 Sin sensor ultrasónico
+
 [![Video](https://img.youtube.com/vi/Fj559EWrD3Q/0.jpg)](https://www.youtube.com/watch?v=Fj559EWrD3Q)
 
 Con sensor ultrasónico
+
 [![Video](https://img.youtube.com/vi/g1TwG0H5FE8/0.jpg)](https://www.youtube.com/watch?v=g1TwG0H5FE8)	
 
+----------------------------------------------------------------
 
 ### Equipo
 - Arduino
@@ -16,9 +19,11 @@ Con sensor ultrasónico
 - Laberinto con lineas rectas y bifurcaciones también en linea recta (dos sentidos)
 - Sensor ultrasónico
 
+----------------------------------------------------------------
+
 ### Funcionamiento
 
-Se colocan 2 sensores a los lados y 2 sensores frontales que siguen la linea y en relación a los otros se comportan como uno solo.
+Se colocan 2 sensores a los lados y 2 sensores frontales que siguen la linea (en relación a los otros se comportan como uno solo).
 
 Se tienen 3 casos:
 
@@ -36,6 +41,8 @@ Al momento de armar los sensores frontales quedaron muy separados de los sensore
 Inicialmente tenía una marca del lado derecho para indicar la salida del laberinto pero tenía problemas con el caso 3 y al final 
 tuve que añadir un sensor ultrasónico, así al ocurrir el caso 4 utiliza un pulso para detectar un objeto indicando la salida, si no detecta nada 
 regresa por donde venía para seguir buscando la salida.
+
+----------------------------------------------------------------
 
 ### Pseudo código
 
